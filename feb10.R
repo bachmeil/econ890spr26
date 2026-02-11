@@ -1,5 +1,3 @@
-For extended discussion of this program, see https://github.com/bachmeil/econ890spr26/blob/main/Feb%2010%20Comparisons.pdf
-
 library(tstools)
 gas <- import.fred("gas.csv")
 dgas <- pctChange(gas)
