@@ -1,3 +1,5 @@
+For extended discussion of this program, [see this file](Feb 10 Comparisons.pdf)
+
 library(tstools)
 gas <- import.fred("gas.csv")
 dgas <- pctChange(gas)
